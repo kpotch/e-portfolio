@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Kyle Potchka</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+<header>
+    <h1 class="site-title">Contact</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="reflections.html">Reflections</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main class="contact-info">
+    <h2>Get in Touch</h2>
+
+    <p><strong>Email:</strong> <a href="mailto:Potchka@usf.edu">Potchka@usf.edu</a></p>
+    <p><strong>LinkedIn:</strong> [Add your link]</p>
+    <p><strong>GitHub:</strong> [Add your link]</p>
+</main>
+
+<footer>
+    © 2026 Kyle Potchka — University of South Florida
+</footer>
+
+</body>
+</html>
