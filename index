@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Potchka | Information Security</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+<header>
+    <h1 class="site-title">Kyle Potchka</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="reflections.html">Reflections</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main class="home-layout">
+
+    <section class="home-left">
+        <h2>Information Security Student</h2>
+        <p>
+            I am a strong worker with extensive data analytical experience. Through the Global Career Accelerator program,
+            I have worked on real-world problems for real companies, building dashboards, automation tools, and analytical
+            reports. My goal is to break into the cybersecurity field as a SOC Analyst, where I can apply my technical
+            skills and problem‑solving abilities to protect organizations.
+        </p>
+
+        <h3>Core Skills</h3>
+        <ul class="skills-list">
+            <li>Python</li>
+            <li>Tableau</li>
+            <li>Excel</li>
+            <li>Linux (Ubuntu)</li>
+            <li>Windows</li>
+            <li>Network Security</li>
+            <li>UFW</li>
+            <li>Data Analysis</li>
+        </ul>
+    </section>
+
+    <section class="home-right">
+        <div class="portrait-placeholder">
+            Professional photo coming soon
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    © 2026 Kyle Potchka — University of South Florida
+</footer>
+
+</body>
+</html>
