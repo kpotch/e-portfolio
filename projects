@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Kyle Potchka</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+<header>
+    <h1 class="site-title">Projects</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="reflections.html">Reflections</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+    <article class="project-card">
+        <h2>Python Automation & Data Processing</h2>
+        <p>Built programs for sales tracking, grade analysis, and structured data processing using loops, functions, and file I/O.</p>
+        <p><strong>Skills:</strong> Python, Data Structures, File Handling</p>
+    </article>
+
+    <article class="project-card">
+        <h2>Tableau Dashboards</h2>
+        <p>Created dashboards analyzing financial, social, and web datasets. Identified trends and presented insights through data visualization.</p>
+        <p><strong>Skills:</strong> Tableau, Data Visualization</p>
+    </article>
+
+    <article class="project-card">
+        <h2>Excel Analysis</h2>
+        <p>Built analytical reports using pivot tables, formulas, and charts to support decision‑making.</p>
+        <p><strong>Skills:</strong> Excel, Data Cleaning</p>
+    </article>
+
+    <article class="project-card">
+        <h2>Global Career Accelerator Internship</h2>
+        <p>Analyzed real-world datasets using Tableau and Excel. Built dashboards to visualize trends and insights.</p>
+        <p><strong>Skills:</strong> Tableau, Excel, Data Analysis</p>
+    </article>
+
+</main>
+
+<footer>
+    © 2026 Kyle Potchka — University of South Florida
+</footer>
+
+</body>
+</html>
