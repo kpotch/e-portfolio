@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflections | Kyle Potchka</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+<header>
+    <h1 class="site-title">Reflections</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="reflections.html">Reflections</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="reflection-section">
+        <h2>Program Learning Reflection</h2>
+        <p>[Write about how your coursework prepared you for cybersecurity and data roles.]</p>
+    </section>
+
+    <section class="reflection-section">
+        <h2>Professional Narrative</h2>
+        <p>[Describe your growth, your goals, and how your projects demonstrate your readiness.]</p>
+    </section>
+
+    <section class="reflection-section">
+        <h2>Artifacts & Learning</h2>
+        <p>[Explain why each project matters and what it demonstrates about your skills.]</p>
+    </section>
+
+</main>
+
+<footer>
+    © 2026 Kyle Potchka — University of South Florida
+</footer>
+
+</body>
+</html>
