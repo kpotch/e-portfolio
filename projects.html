@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Kyle Potchka</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="nav-name">Kyle Potchka</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" id="navToggle">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html" aria-current="page">Projects</a></li>
+      <li><a href="certifications.html">Certifications</a></li>
+      <li><a href="reflections.html">Reflections</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="assets/Potchka_Resume.pdf">Résumé</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" style="padding-bottom:2.5rem;">
+  <div class="container">
+    <h1 style="font-size:2.4rem;">Projects</h1>
+    <p class="lede">Work from my internship at The Global Career Accelerator and from coursework in the Information Security program. I'll keep adding to this page as the semester goes.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+
+    <div class="section-header category-heading" style="text-align:left;">
+      <h2>Global Career Accelerator — Spreadsheet &amp; SQL Analyses</h2>
+      <p class="category-sub" style="margin:0.5rem 0 0;">Milestone projects completed as a data analytics intern, using Excel, PivotTables, and SQL on real-world datasets.</p>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <img class="project-shot" src="assets/projects/winter-sports-chart.png" alt="Line chart showing search interest in curling spiking every four years during the Winter Olympics">
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">Excel</span></div>
+        <h3>Winter Sports Interest Analysis</h3>
+        <p class="meta">The Global Career Accelerator · Excel, ChatGPT-assisted analysis</p>
+        <p>Analyzed 18 years of search-interest data across nine winter sports. Built line and bar charts showing that interest in sports like curling, luge, and bobsleigh spikes sharply every four years — almost entirely during the Winter Olympics — then used ChatGPT to test and refine that hypothesis against the data.</p>
+        <div class="reflection-note"><strong>Reflection:</strong> This was a good exercise in not trusting my first chart. My initial takeaway was obvious ("Olympics cause spikes"), but narrowing the ChatGPT prompt to specific months and years is what actually produced a sourced, defensible explanation instead of a guess.</div>
+        <div class="project-links"><a href="assets/projects/winter-sports-analysis.pdf">View full write-up (PDF)</a></div>
+      </article>
+
+      <article class="project-card">
+        <img class="project-shot" src="assets/projects/grammys-chart.png" alt="Line chart showing daily visitor spikes to Grammy.com around award show nights">
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">Excel</span></div>
+        <h3>Analyzing Website Performance for The Grammys</h3>
+        <p class="meta">The Global Career Accelerator · Excel, XLOOKUP, business memo</p>
+        <p>Evaluated whether splitting Grammy.com into two separate sites (Grammys vs. The Recording Academy) in 2022 helped or hurt user engagement. Calculated bounce rate, pages per session, and mobile traffic share before and after the split, found the Grammy Awards show night draws roughly 854,000 more visitors than a typical day, and wrote a business memo recommending the sites stay separate while improving cross-site navigation.</p>
+        <div class="reflection-note"><strong>Reflection:</strong> The most useful part of this project was catching where ChatGPT's first-draft memo overgeneralized — it stated conclusions more confidently than the underlying numbers actually supported, which pushed me to tie every claim in my final memo back to a specific calculated metric.</div>
+        <div class="project-links"><a href="assets/projects/grammys-website-analysis.pdf">View full write-up (PDF)</a></div>
+      </article>
+
+      <article class="project-card">
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">Excel · PivotTables</span></div>
+        <h3>DoorDash Delivery Analysis</h3>
+        <p class="meta">The Global Career Accelerator · Excel PivotTables</p>
+        <p>Built PivotTables across ~50,000 DoorDash orders spanning five markets to compare delivery time, order volume, and price. Found delivery times average 49.9 minutes (with a 21.6 minute standard deviation), identified American cuisine as the most-ordered category nationally, and delivered three market-specific recommendations for driver incentives and restaurant partnerships.</p>
+        <div class="reflection-note"><strong>Reflection:</strong> Grouping by market region first, then by cuisine, made regional differences in delivery time and order value much clearer than looking at either factor alone — a reminder that the order you slice data in changes what patterns you actually notice.</div>
+        <div class="project-links"><a href="assets/projects/doordash-analysis.pdf">View full write-up (PDF)</a></div>
+      </article>
+
+      <article class="project-card">
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">Excel · XLOOKUP</span></div>
+        <h3>Terracotta Survey Analysis</h3>
+        <p class="meta">The Global Career Accelerator · Excel, XLOOKUP, PivotTables</p>
+        <p>Analyzed customer survey data for a plant retailer to figure out what drives purchase decisions. Used XLOOKUP to join survey responses to a plant-care reference table, then PivotTables to find that low-maintenance plants make up 99.5% of purchases and "care requirements" is the top-cited reason customers buy — insights that shaped a recommendation for how the client should market low-maintenance plants on their homepage.</p>
+        <div class="reflection-note"><strong>Reflection:</strong> This project made the case for XLOOKUP over VLOOKUP very concrete for me — being able to look left in the data instead of only right saved restructuring three separate reference tables.</div>
+        <div class="project-links"><a href="assets/projects/terracotta-analysis.pdf">View full write-up (PDF)</a> · <a href="assets/projects/Terracotta_source.xlsx">Source workbook (.xlsx)</a></div>
+      </article>
+
+      <article class="project-card">
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">Excel · Statistics</span></div>
+        <h3>A/B Testing: H&amp;M Email Campaign</h3>
+        <p class="meta">The Global Career Accelerator · Sample size calculation, hypothesis testing</p>
+        <p>Designed and evaluated an A/B test comparing two promotional email subject lines for H&amp;M. Calculated the minimum required sample size, then tested the results: the new subject line lifted open rate from 17.55% to 19.13%, a statistically significant difference (p ≈ 0.047) — enough to recommend adopting it, while flagging the Type I error risk and the need to confirm the lift shows up in downstream clicks and conversions, not just opens.</p>
+        <div class="reflection-note"><strong>Reflection:</strong> Distinguishing "statistically significant" from "practically significant" was the real lesson here — a p-value under 0.05 tells you the difference probably isn't random, not that it's necessarily large enough to matter for revenue.</div>
+        <div class="project-links"><a href="assets/projects/ab-testing-hm.pdf">View full write-up (PDF)</a></div>
+      </article>
+
+      <article class="project-card">
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">Excel</span></div>
+        <h3>BART Ridership Analysis</h3>
+        <p class="meta">The Global Career Accelerator · Excel feature engineering</p>
+        <p>Engineered features (day-of-week, transit line classification) from a raw 2021 BART ridership dataset, then calculated key ridership metrics. Found that 83% of the system's ~24.6 million annual riders traveled on weekdays and that the Yellow Line carries the large majority of riders — evidence used to recommend BART shift train frequency toward weekday peak hours.</p>
+        <div class="reflection-note"><strong>Reflection:</strong> Extracting day-of-week and line classification from messy text fields before I could even start on the "real" analysis was a good reminder of how much of data analysis is cleanup, not math.</div>
+        <div class="project-links"><a href="assets/projects/bart-ridership-analysis.pdf">View full write-up (PDF)</a></div>
+      </article>
+
+      <article class="project-card">
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">SQL</span></div>
+        <h3>Analyzing Startup Investments</h3>
+        <p class="meta">The Global Career Accelerator · SQL, Crunchbase dataset</p>
+        <p>Wrote SQL queries against a 27,000+ row Crunchbase dataset to rank startups by total funding and by outcome. Found that Clearwire raised 5.7x more funding than the twelfth-highest funded company, and that cleantech startups — despite showing up disproportionately among the most-funded companies that later closed — actually close at a slightly lower rate (7%) than the dataset average (7.9%).</p>
+        <div class="reflection-note"><strong>Reflection:</strong> I expected cleantech to be riskier than the data actually showed — a good example of how a vivid pattern ("famous failed cleantech startups") can feel statistically significant when it isn't, and why I always check the base rate before drawing a conclusion.</div>
+        <div class="project-links"><a href="assets/projects/startup-investments-sql.pdf">View full write-up (PDF)</a></div>
+      </article>
+
+      <article class="project-card">
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">SQL + Excel</span></div>
+        <h3>YouTube Trending Analysis</h3>
+        <p class="meta">The Global Career Accelerator · SQL and Excel, same dataset</p>
+        <p>Analyzed the same dataset of 6,351 US trending YouTube videos (Nov 2017–Jun 2018) two ways. In Excel, explored column types and category-level view averages. In SQL, wrote ranking queries with <code>ORDER BY</code>, <code>LIMIT</code>, and <code>OFFSET</code> to find the most-liked, most-disliked, and most-commented videos, then compared how quickly engagement drops off between the 10th, 100th, and 1000th ranked videos.</p>
+        <div class="reflection-note"><strong>Reflection:</strong> Doing the same dataset in both tools back-to-back made the trade-off clear: Excel's PivotTables were faster for category-level summaries, but SQL's OFFSET made it much easier to jump to an arbitrary rank in a 6,000-row dataset without scrolling.</div>
+        <div class="project-links"><a href="assets/projects/youtube-trending-excel.pdf">Excel write-up (PDF)</a> · <a href="assets/projects/youtube-trending-sql.pdf">SQL write-up (PDF)</a></div>
+      </article>
+
+      <article class="project-card">
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">SQL</span></div>
+        <h3>London Transit Analysis</h3>
+        <p class="meta">The Global Career Accelerator · SQL, Transport for London data</p>
+        <div class="project-links"><a href="assets/projects/london-transit-analysis.pdf">View full write-up (PDF)</a></div>
+        <div class="reflection-note"><strong>Description:</strong> Used SQL on Transport for London's Rolling Origin and Destination Survey (6,295 rows) to summarize typical weekday Underground ridership by zone, time of day, trip purpose, and distance. My main finding was a data gap: 706,097 journeys have no recorded purpose, and 204,883 of them fall in the 5–7 am Early period, about 97% of all travel in that window. I recommended TfL investigate why survey responses drop before 7 am so early-morning and late-night service decisions can be based on real purpose data.</div>
+      </article>
+      <article class="project-card">
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">SQL</span></div>
+        <h3>NBA Performance Analysis</h3>
+        <p class="meta">The Global Career Accelerator · SQL, ChatGPT-assisted analysis</p>
+        <div class="project-links"><a href="assets/projects/nba-performance-analysis.pdf">View full write-up (PDF)</a></div>
+        <div class="reflection-note"><strong>Description:</strong> Queried 23,335 NBA games from the 2004 to 2020 seasons to see how 3-point shooting relates to team success. Teams with a high 3-point rate almost always had winning records (92%), and all 7 teams shooting 34% or lower had losing records. I noted that this shows correlation rather than causation and recommended looking at defensive rating, rebounding, and turnovers for a fuller picture.</div>
+      </article>
+      <article class="project-card">
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">SQL · Joins</span></div>
+        <h3>FastKitchen Customer Analysis</h3>
+        <p class="meta">The Global Career Accelerator · SQL outer joins</p>
+        <div class="project-links"><a href="assets/projects/fastkitchen-customer-analysis.pdf">View full write-up (PDF)</a></div>
+        <div class="reflection-note"><strong>Description:</strong> Joined orders to registered-user data with a LEFT JOIN so guest orders were not dropped. Average order total was $22.22, Allen had the most registered users (212, spread across three zip codes), and three zip codes spend more per order than guests. To convert guests into registered users I suggested a "save your info" option on the order confirmation page, which avoids adding friction at checkout.</div>
+      </article>
+      <article class="project-card">
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">SQL · Portfolio Project</span></div>
+        <h3>Sustainability Impact Analysis for Intel</h3>
+        <p class="meta">The Global Career Accelerator · SQL, joined datasets</p>
+        <div class="project-links"><a href="assets/projects/intel-sustainability-sql.pdf">View full write-up (PDF)</a></div>
+        <div class="reflection-note"><strong>Description:</strong> Joined Intel's device and impact datasets to evaluate which repurposed devices deliver the most energy and CO₂ savings (the data is hypothetical and built for the program). Region mattered much more than device type: laptops and desktops save nearly the same per device, but devices in Asia save about 15 kg of CO₂ per year versus about 10 kg in North America and 6 kg in Europe. I recommended prioritizing by region first and outlined cost-per-ton and energy-per-dollar metrics to balance sustainability with cost.</div>
+      </article>
+    </div>
+
+    <div class="section-header category-heading" style="text-align:left;">
+      <h2>Global Career Accelerator — Tableau Dashboards</h2>
+      <p class="category-sub" style="margin:0.5rem 0 0;">Interactive dashboards built in Tableau. Live embeds coming as soon as each one is published to Tableau Public — for now, here's what each one covers.</p>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="tableau-embed"><iframe src="https://public.tableau.com/views/Potchka_M3_Forbes_HighestPaidCelebrities-Student/Dashboard3?:embed=y&amp;:showVizHome=no&amp;:toolbar=no" frameborder="0" allowfullscreen loading="lazy"></iframe></div>
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">Tableau</span></div>
+        <h3>Forbes Highest-Paid Celebrities</h3>
+        <p class="meta">The Global Career Accelerator · Tableau</p>
+        <p>Dashboard exploring Forbes' highest-paid actors dataset — earnings over time, a breakdown of earnings by gender, and a ranked view of the highest-paid actors year over year.</p>
+        <div class="project-links"><a href="https://public.tableau.com/app/profile/kyle.potchka/viz/Potchka_M3_Forbes_HighestPaidCelebrities-Student/Dashboard3" target="_blank" rel="noopener">Open full dashboard on Tableau Public</a></div>
+      </article>
+
+      <article class="project-card">
+        <div class="tableau-embed"><iframe src="https://public.tableau.com/views/Potchka_M5_UFO_Sightings-Student/Dashboard3?:embed=y&amp;:showVizHome=no&amp;:toolbar=no" frameborder="0" allowfullscreen loading="lazy"></iframe></div>
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">Tableau</span></div>
+        <h3>UFO Sightings Dashboard</h3>
+        <p class="meta">The Global Career Accelerator · Tableau</p>
+        <p>Geographic and temporal breakdown of reported UFO sightings — by country and state, by hour of day, by shape reported, and by how encounter length varies across the year.</p>
+        <div class="project-links"><a href="https://public.tableau.com/app/profile/kyle.potchka/viz/Potchka_M5_UFO_Sightings-Student/Dashboard3" target="_blank" rel="noopener">Open full dashboard on Tableau Public</a></div>
+      </article>
+
+      <article class="project-card">
+        <div class="tableau-embed"><iframe src="https://public.tableau.com/views/Potchka_M6_SuperBowlAnalysis-Student/Dashboard3?:embed=y&amp;:showVizHome=no&amp;:toolbar=no" frameborder="0" allowfullscreen loading="lazy"></iframe></div>
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">Tableau</span></div>
+        <h3>Super Bowl Analysis</h3>
+        <p class="meta">The Global Career Accelerator · Tableau</p>
+        <p>Dashboard comparing Super Bowl ad cost trends over time against TV ratings, and looking at how final score margins relate to viewership.</p>
+        <div class="project-links"><a href="https://public.tableau.com/app/profile/kyle.potchka/viz/Potchka_M6_SuperBowlAnalysis-Student/Dashboard3" target="_blank" rel="noopener">Open full dashboard on Tableau Public</a></div>
+      </article>
+
+      <article class="project-card">
+        <div class="tableau-embed"><iframe src="https://public.tableau.com/views/Potchka_M7_NYC_Green_Taxi_Fares-Student/Dashboard3?:embed=y&amp;:showVizHome=no&amp;:toolbar=no" frameborder="0" allowfullscreen loading="lazy"></iframe></div>
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">Tableau</span></div>
+        <h3>NYC Green Taxi Fares</h3>
+        <p class="meta">The Global Career Accelerator · Tableau</p>
+        <p>Dashboard analyzing 2015 NYC Green Taxi trip data — fare distribution, tip amount, and trip distance, all broken out by rate type.</p>
+        <div class="project-links"><a href="https://public.tableau.com/app/profile/kyle.potchka/viz/Potchka_M7_NYC_Green_Taxi_Fares-Student/Dashboard3" target="_blank" rel="noopener">Open full dashboard on Tableau Public</a></div>
+      </article>
+
+      <article class="project-card">
+        <div class="tableau-embed"><iframe src="https://public.tableau.com/views/IntelDataCeneterLocationAnalysis/Dashboard?:embed=y&amp;:showVizHome=no&amp;:toolbar=no" frameborder="0" allowfullscreen loading="lazy"></iframe></div>
+        <div class="tag-row"><span class="tag">Internship</span><span class="tag tag-class">Tableau</span></div>
+        <h3>Intel Data Center Location Analysis</h3>
+        <p class="meta">The Global Career Accelerator · Tableau</p>
+        <p>Dashboard evaluating regional power grids as candidate sites for a new data center — comparing energy source mix, renewable energy share, and how supply and demand shift hour-by-hour across a 24-hour period in each region.</p>
+        <div class="project-links"><a href="https://public.tableau.com/app/profile/kyle.potchka/viz/IntelDataCeneterLocationAnalysis/Dashboard" target="_blank" rel="noopener">Open full dashboard on Tableau Public</a></div>
+      </article>
+
+    </div>
+
+    <div class="section-header category-heading" style="text-align:left;">
+      <h2>Cybersecurity &amp; Ethical Hacking Labs</h2>
+      <p class="category-sub" style="margin:0.5rem 0 0;">Hands-on labs completed in a private virtual lab environment.</p>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="tag-row"><span class="tag tag-class">Class Project</span><span class="tag tag-class">Reconnaissance</span></div>
+        <h3>Reconnaissance &amp; Footprinting Lab: Home Depot</h3>
+        <p class="meta">CIS4204 Ethical Hacking · passive reconnaissance</p>
+        <div class="project-links"><a href="assets/projects/homedepot-recon-lab.pdf">View full lab report (PDF)</a></div>
+        <div class="reflection-note"><strong>Description:</strong> Used only passive, publicly available sources (nslookup, ARIN WHOIS, DomainTools, SEC filings, and robots.txt) to profile The Home Depot without touching its systems. The site's IP address (35.201.95.83) turned out to be registered to Google Cloud rather than Home Depot, and 123 other websites share it. The robots.txt file also revealed disallowed paths and a sitemap, which shows how much an attacker can learn before ever sending a packet.</div>
+      </article>
+      <article class="project-card">
+        <div class="tag-row"><span class="tag tag-class">Class Project</span><span class="tag tag-class">Nmap</span></div>
+        <h3>Scanning &amp; Enumeration Lab (Nmap)</h3>
+        <p class="meta">CIS4204 Ethical Hacking · Kali Linux, Nmap</p>
+        <div class="project-links"><a href="assets/projects/nmap-scanning-lab.pdf">View full lab report (PDF)</a></div>
+        <div class="reflection-note"><strong>Description:</strong> Ran 17 Nmap scans (ping sweeps, SYN, TCP connect, UDP, OS detection, version detection, and aggressive scans) from a Kali VM against two intentionally vulnerable machines in my own private VirtualBox lab. The scans identified the operating systems and service versions on each target and found a browsable web directory exposing phpmyadmin and a payroll app file, all without credentials. No scans were directed outside my private lab network.</div>
+      </article>
+      <article class="project-card">
+        <div class="tag-row"><span class="tag tag-class">Class Project</span><span class="tag tag-class">Threat Modeling</span></div>
+        <h3>Threat Modeling My Personal Computer</h3>
+        <p class="meta">Security lab · Lab 04</p>
+        <div class="project-links"><a href="assets/projects/threat-model-lab.pdf">View full lab report (PDF)</a></div>
+        <div class="reflection-note"><strong>Description:</strong> Applied the seven-step threat modeling process (assets, threat actors, attack vectors, risk, and mitigations) to my own Windows desktop. Password reuse came out as my biggest risk and a password manager as the simplest fix. Public Wi-Fi use was a moderate risk addressed with a VPN, and phishing and malware rated medium because of habits I already follow.</div>
+      </article>
+      <article class="project-card">
+        <div class="tag-row"><span class="tag tag-class">Class Project</span><span class="tag tag-class">Password Cracking</span></div>
+        <h3>Windows Password Cracking: LCP &amp; Ophcrack</h3>
+        <p class="meta">Security lab · Lab 5</p>
+        <div class="project-links"><a href="assets/projects/password-cracking-lab.pdf">View full lab report (PDF)</a></div>
+        <div class="reflection-note"><strong>Description:</strong> Recovered the account passwords from a sample Windows SAM database using a brute-force attack in LCP and a rainbow-table attack in Ophcrack. Every account that had a password was cracked, and I verified each one against the LM and NT hashes. The report explains why legacy LM hashes fall so quickly and why MFA and zero trust matter for defense.</div>
+      </article>
+
+    </div>
+
+    <div class="section-header category-heading" style="text-align:left;">
+      <h2>Information Science Coursework</h2>
+      <p class="category-sub" style="margin:0.5rem 0 0;">Papers, plans, and reflections from the BSIS program.</p>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="tag-row"><span class="tag tag-class">Class Project</span><span class="tag tag-class">Policy</span></div>
+        <h3>AI-Driven Surveillance Pricing Policy Paper</h3>
+        <p class="meta">Information Policy · legislative tracing</p>
+        <div class="project-links"><a href="assets/projects/ai-surveillance-pricing-policy.pdf">Read the paper (PDF)</a></div>
+        <div class="reflection-note"><strong>Description:</strong> A policy paper on companies using consumer data and AI to set individualized prices. I traced the Stop Price Gouging in Grocery Stores Act of 2026 (S. 3892) and the Senate Judiciary hearing "Your Data, Their Profit." What stood out to me is how this issue connects privacy to money: personal data is not only at risk of theft, it can directly change what someone pays.</div>
+      </article>
+      <article class="project-card">
+        <div class="tag-row"><span class="tag tag-class">Class Project</span><span class="tag tag-class">Project Management</span></div>
+        <h3>Software Database Project Plan</h3>
+        <p class="meta">Coursework · case study plan</p>
+        <div class="project-links"><a href="assets/projects/software-database-project-plan.pdf">Read the plan (PDF)</a></div>
+        <div class="reflection-note"><strong>Description:</strong> A project plan for a centralized software and license tracking database at a fictional university, written from the project leader's point of view. It follows the six-phase model from Baars (2006) over roughly 26 weeks, with a decision point at the end of each phase, clear scope boundaries, and a piloted rollout before handover.</div>
+      </article>
+      <article class="project-card">
+        <div class="tag-row"><span class="tag tag-class">Class Project</span><span class="tag tag-class">Reflection</span></div>
+        <h3>"Why Privacy Matters" Event Report</h3>
+        <p class="meta">Coursework · virtual event report</p>
+        <div class="project-links"><a href="assets/projects/privacy-event-report.pdf">Read the report (PDF)</a></div>
+        <div class="reflection-note"><strong>Description:</strong> A report on Glenn Greenwald's TED Talk "Why Privacy Matters," which I watched on October 2, 2026. His argument is that everyone values privacy and that being watched makes people conform. I connected it to my cloud security goals: least privilege, limited log access, and short data retention are ethical responsibilities as well as technical ones.</div>
+      </article>
+      <article class="project-card">
+        <div class="tag-row"><span class="tag tag-class">Class Project</span><span class="tag tag-class">Reflection</span></div>
+        <h3>BSIS Program Review</h3>
+        <p class="meta">Coursework · program reflection</p>
+        <div class="project-links"><a href="assets/projects/bsis-program-review.pdf">Read the review (PDF)</a></div>
+        <div class="reflection-note"><strong>Description:</strong> A reflection on my path through the BSIS program after transferring from Pasco-Hernando State College. It covers the courses that shaped me most (Networking and Communications, Architecting Operating Systems, and the policy classes), my most significant assignments, and the Google Cybersecurity Professional Certificate I earned for my Information Security Management self-development project.</div>
+      </article>
+
+    </div>
+
+    <div class="section-header category-heading" style="text-align:left;">
+      <h2>Coursework</h2>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="tag-row"><span class="tag tag-class">Class Project</span></div>
+        <h3>Python Fundamentals: Functions, Files &amp; Data Processing</h3>
+        <p class="meta">Coursework · Python</p>
+        <p>A series of Python programs covering functions, loops, sentinel-controlled input, dictionaries, and file I/O.</p>
+        <ul class="file-list">
+          <li><strong>Corner Store</strong> — multi-sale program with product ID lookup, sales tax, and a running cash drawer total. <a href="assets/projects/python/project1.py">project1.py</a></li>
+          <li><strong>Stadium Ticket Income</strong> — calculates total income across three ticket price tiers. <a href="assets/projects/python/stadium.py">stadium.py</a></li>
+          <li><strong>Test Grades</strong> — collects grades via a sentinel-controlled loop, then computes the average and sorts high-to-low. <a href="assets/projects/python/grades.py">grades.py</a></li>
+          <li><strong>Word Histogram</strong> — reads a text file and counts word frequency into a dictionary. <a href="assets/projects/python/histogram.py">histogram.py</a></li>
+          <li><strong>Miles to Kilometers</strong> — unit conversion using a dedicated worker function. <a href="assets/projects/python/miles.py">miles.py</a></li>
+          <li><strong>Baseball Players</strong> — appends player stats to a file, then reopens and reads them back. <a href="assets/projects/python/players.py">players.py</a></li>
+          <li><strong>Hours to Seconds</strong> — converts hours and minutes worked into total seconds. <a href="assets/projects/python/seconds.py">seconds.py</a></li>
+        </ul>
+        <div class="reflection-note"><strong>Reflection:</strong> [Add 2–3 sentences — which program are you proudest of, and what security or data-integrity lesson carried over from it?]</div>
+      </article>
+
+      <article class="project-card">
+        <div class="tag-row"><span class="tag tag-class">Class Project</span></div>
+        <h3>Data Visualization: Financial &amp; Web Datasets</h3>
+        <p class="meta">Coursework · Tableau, Excel</p>
+        <p>Created dashboards analyzing financial, social, and web datasets, identifying trends and presenting insights through data visualization.</p>
+        <div class="reflection-note"><strong>Reflection:</strong> [Add 2–3 sentences — what pattern surprised you in the data, and how did you decide how to visualize it?]</div>
+      </article>
+
+      <article class="project-card placeholder-card">
+        <h3>More coming this semester</h3>
+        <p>Future coursework, security labs, and internship deliverables will be added here as I complete them.</p>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    &copy; 2026 Kyle Potchka. Built for LIS 4934 Senior Capstone, University of South Florida.
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
